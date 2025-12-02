@@ -21,11 +21,11 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #272727; /* Background color for the entire website, including individual sections */
+  --background-color: #1a1a1a; /* Background color for the entire website, including individual sections */
   --default-color: #bdbdbd; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #a30e0e; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #a30e0e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #272727; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #202020; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -42,7 +42,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #272727;
+  --background-color: #202020;
   --surface-color: #252525;
 }
 
@@ -50,7 +50,7 @@
   --background-color: #09947d;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #272727;
+  --surface-color: #202020;
   --contrast-color: #ffffff;
 }
 
@@ -104,7 +104,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #272727;
+  background: #202020;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
